@@ -1,0 +1,72 @@
+:root{
+    --meret: 20%;
+    --magassag: 200px;
+    --piros: red;
+    --zold: green;
+    --kek: blue;
+    --narancs: orange;
+    --lila: purple;
+    --pink: pink;
+    --szurke: grey;
+    --fekete: black;
+    --terkoz: 5px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#egy{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--fekete);
+    margin: var(--terkoz);
+}
+#ketto{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--piros);
+    margin: var(--terkoz);
+
+}
+#harom{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--kek);
+    margin: var(--terkoz);
+
+}
+#negy{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--narancs);
+    margin: var(--terkoz);
+
+}
+#ot{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--zold);
+    margin: var(--terkoz);
+
+}
+#hat{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--lila);
+    margin: var(--terkoz);
+
+}
+#het{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--pink);
+    margin: var(--terkoz);
+
+}
+#nyolc{
+    height: var(--magassag);
+    width: var(--meret);
+    background-color: var(--szurke);
+    margin: var(--terkoz);
+
+}
